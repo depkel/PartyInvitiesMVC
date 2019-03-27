@@ -8,7 +8,7 @@ namespace PartyInvites.Models
 {
     public class GuestResponse
     {
-        [Required(ErrorMessage = "Please enter your name")]
+        [Required(ErrorMessage = "Please enter your nice name")]
         public string FriendsName { get; set; }
 
         [Required(ErrorMessage = "Please enter your email address")]
