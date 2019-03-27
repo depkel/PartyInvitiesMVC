@@ -33,7 +33,7 @@ namespace PartyInvites.Controllers
         public ViewResult Index() //calls index.aspx --delivered collection of things found in VIEWDATA Structure
         {
             int hour = DateTime.Now.Hour;
-            ViewBag.Greeting = hour < 12 ? "Yes Good Morning" : "Yes Good Afternoon";
+            ViewBag.Greeting = hour < 12 ? "Yes Good Morning" : "Yes Good AfterNoon";
             ViewBag.Person = "My Dear friend";
             return View();
         }
